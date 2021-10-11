@@ -51,6 +51,10 @@
           <li>
             <router-link to="/receiveMaterial"><i class="mdi mdi-call-received sidebar-icon"></i> Receive Material</router-link>
           </li>
+
+          <li>
+            <router-link to="/dispatch"><i class="mdi mdi-cube-send sidebar-icon"></i> Dispatch</router-link>
+          </li>
           
           <!-- <li>
             <router-link to="/login">

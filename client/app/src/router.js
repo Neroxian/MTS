@@ -120,6 +120,12 @@ export default new Router({
       name: 'Login',
       component: loadView('Login'),
       meta: { title: 'Login page', icon : 'mdi-account-key' }
+    },
+    {
+      path: '/dispatch',
+      name: 'Dispatch',
+      component: loadView('Dispatch'),
+      meta: { title: 'Dispatch page', icon : 'mdi-account-key' }
     }
   ]
 })
