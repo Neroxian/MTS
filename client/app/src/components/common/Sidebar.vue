@@ -52,13 +52,19 @@
             <router-link to="/receiveMaterial"><i class="mdi mdi-call-received sidebar-icon"></i> Receive Material</router-link>
           </li>
           
-          <!-- <li>
-            <router-link to="/login">
-              <i class="mdi mdi-account sidebar-icon" /> Login
+          <li>
+            <router-link to="/matcat">
+              <i class="mdi mdi-account sidebar-icon" /> Material Category
             </router-link>
           </li>
 
           <li>
+            <router-link to="/packaging">
+              <i class="mdi mdi-account sidebar-icon" /> Packaging
+            </router-link>
+          </li>
+
+         <!-- <li>
             <router-link to="/registration">
               <i class="mdi mdi-account-edit sidebar-icon" /> Registration
             </router-link>

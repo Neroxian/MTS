@@ -120,6 +120,18 @@ export default new Router({
       name: 'Login',
       component: loadView('Login'),
       meta: { title: 'Login page', icon : 'mdi-account-key' }
+    },
+    {
+      path: '/matcat',
+      name: 'Matcat',
+      component: loadView('MaterialCategory'),
+      meta: { title: 'Material Category', icon : 'mdi-account-key' }
+    },
+    {
+      path: '/packaging',
+      name: 'Packaging',
+      component: loadView('PackagingPattern'),
+      meta: { title: 'Material Category', icon : 'mdi-account-key' }
     }
   ]
 })
