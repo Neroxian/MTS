@@ -1,0 +1,8 @@
+client/app/node_modules
+client/app/dist
+
+*.log
+
+\.vscode/
+vendor
+
