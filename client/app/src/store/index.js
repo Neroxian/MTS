@@ -1,12 +1,13 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 // import Login from './modules/login'
-import modules from './modules/modules'
+// import modules from './modules/modules'
 
 import actions from './actions'
 import getters from './getters'
 import mutations from './mutations'
 import createPersistedState from 'vuex-persistedstate'
+import moda from './moda'
 
 Vue.use(Vuex)
 
@@ -73,6 +74,8 @@ export default new Vuex.Store({
   getters,
   mutations,
   actions,
-  modules,
+  modules: {
+    moda
+  },
   plugins: [createPersistedState({ storage: window.sessionStorage })]
 })

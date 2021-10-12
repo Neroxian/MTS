@@ -71,14 +71,14 @@ body {
         li {
           list-style: none;
           .router-link-exact-active {
-            background-color: #070E31;
+            background-color: #ffffff;
             padding: 15px 20px;
-            color:#fff;
+            color:#070E31;
             font-weight: 600;
           }
           a {
             padding: 15px 20px;
-            font-size: 14px;
+            font-size: 15px;
             display: block;
             color: #d0c7c7;
             &:hover {
